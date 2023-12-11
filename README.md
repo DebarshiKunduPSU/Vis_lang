@@ -25,7 +25,7 @@ Num. pre-train images | BLIP w/ ViT-B | BLIP w/ ViT-B and CapFilt-L | BLIP w/ Vi
 I downloaded it from Kaggle using Kaggle API. 
 Use the following command after setting KAggle credentials on your computer.
 <pre/>kaggle datasets download adityajn105/flickr30k </pre> 
-and set 'image_root' in configs/retrieval_{dataset}.yaml accordingly.
+and set 'image_root' in configs/retrieval_flickr.yaml accordingly.
 
 3. To evaluate the finetuned BLIP model on Flickr30k, run:
 <pre>python -m torch.distributed.run --nproc_per_node=1 train_retrieval.py \
