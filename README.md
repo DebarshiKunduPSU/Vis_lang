@@ -37,7 +37,7 @@ and set 'image_root' in configs/retrieval_{dataset}.yaml accordingly.
 --config ./configs/retrieval_flickr.yaml \
 --output_dir output/retrieval_flickr \
 --evaluate</pre> 
-3. To finetune the pre-trained checkpoint using 1 A100 GPUs, first set 'pretrained' in configs/retrieval_coco.yaml as "https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_base.pth". Then run:
+3. To finetune the pre-trained checkpoint using 1 A100 GPUs, first set 'pretrained' in configs/retrieval_flickr.yaml as "https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_base.pth". Then run:
 <pre>python -m torch.distributed.run --nproc_per_node=1 train_retrieval.py \
 --config ./configs/retrieval_flickr.yaml \
 --output_dir output/retrieval_flickr_finetuned </pre> 
