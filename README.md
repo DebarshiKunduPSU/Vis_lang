@@ -24,7 +24,7 @@ Download the Flickr30k dataset.
 I downloaded it from Kaggle using Kaggle API. 
 Use the following command after setting Kaggle credentials on your computer. \
 
-"kaggle datasets download adityajn105/flickr30k"
+run <pre/>kaggle datasets download adityajn105/flickr30k </pre> 
 
 
 ### Image-Text Retrieval:
