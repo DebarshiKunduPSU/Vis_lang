@@ -16,6 +16,11 @@ Num. pre-train images | BLIP w/ ViT-B | BLIP w/ ViT-B and CapFilt-L | BLIP w/ Vi
 14M | <a href="https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_base_14M.pth">Download</a>| - | -
 129M | <a href="https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_base.pth">Download</a>| <a href="https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_base_capfilt_large.pth">Download</a> | <a href="https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_large.pth">Download</a>
 
+### Image-Text Retrieval:
+Download the Flickr30k dataset. 
+I downloaded it from Kaggle using Kaggle API. 
+Use the following command after setting KAggle credentials on your computer.
+kaggle datasets download adityajn105/flickr30k
 
 
 ### Image-Text Retrieval:
