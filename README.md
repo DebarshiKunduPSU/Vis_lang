@@ -19,9 +19,9 @@ Num. pre-train images | BLIP w/ ViT-B | BLIP w/ ViT-B and CapFilt-L | BLIP w/ Vi
 ### Image-Text Retrieval:
 Download the Flickr30k dataset. 
 I downloaded it from Kaggle using Kaggle API. 
-Use the following command after setting KAggle credentials on your computer.
-run: 
-kaggle datasets download adityajn105/flickr30k
+Use the following command after setting Kaggle credentials on your computer. \
+
+"kaggle datasets download adityajn105/flickr30k"
 
 
 ### Image-Text Retrieval:
