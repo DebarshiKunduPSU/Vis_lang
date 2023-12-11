@@ -4,7 +4,10 @@
 
 <img src="BLIP.gif" width="700">
 
-This is the PyTorch code of the <a href="https://arxiv.org/abs/2201.12086">BLIP paper</a> [[blog](https://blog.salesforceairesearch.com/blip-bootstrapping-language-image-pretraining/)]. The code has been tested on PyTorch 1.10.
+This is the PyTorch code of the <a href="https://arxiv.org/abs/2201.12086">BLIP paper</a> [[blog](https://blog.salesforceairesearch.com/blip-bootstrapping-language-image-pretraining/)]. The code has been tested on PyTorch 2.0.0+cu117.
+To create the conda environment with the updated dependencies. \
+conda env create -f environment.yml \
+
 To install the dependencies, run <pre/>pip install -r requirements.txt</pre> 
 
 
