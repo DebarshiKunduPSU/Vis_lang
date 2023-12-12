@@ -57,7 +57,7 @@ output/: Contains logs and outputs from various training and evaluation processe
 annotation/: Likely contains JSON files for annotations related to various datasets like Flickr30K and COCO.
 models/: Contains Python scripts defining different models and their components.
 configs/: Configuration files for different training and evaluation setups.
-  retrieval_flickr.yaml: All the hyperparameters can be defined here. The model checkpoint is also mentioned here. 
+  retrieval_flickr.yaml: All the hyperparameters can be defined here. The pre-trained BLIP model checkpoint is also mentioned here. 
 
 data/: Scripts and utilities for handling various datasets.
 transform/: Contains scripts for data transformation and augmentation.
