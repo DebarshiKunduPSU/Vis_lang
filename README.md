@@ -52,15 +52,15 @@ eval_retrieval_video.py: Evaluation script for video retrieval.\
 eval_nocaps.py: Evaluation script for the nocaps dataset.\
 
 Subdirectories:\
-output/: Contains logs and outputs from various training and evaluation processes.\
-  retrieval_flickr/, retrieval_flickr_finetuned/, retrieval_coco/: Folders for storing outputs specific to image retrieval tasks on different datasets.\
-annotation/: Likely contains JSON files for annotations related to various datasets like Flickr30K and COCO.\
-models/: Contains Python scripts defining different models and their components.\
-configs/: Configuration files for different training and evaluation setups.\
+output: Contains logs and outputs from various training and evaluation processes.\
+  retrieval_flickr, retrieval_flickr_finetuned, retrieval_coco: Folders for storing outputs specific to image retrieval tasks on different datasets.\
+annotation: Likely contains JSON files for annotations related to various datasets like Flickr30K and COCO.\
+models: Contains Python scripts defining different models and their components.\
+configs: Configuration files for different training and evaluation setups.\
   retrieval_flickr.yaml: All the hyperparameters can be defined here. The pre-trained BLIP model checkpoint is also mentioned here.\
 
-data/: Scripts and utilities for handling various datasets.\
-transform/: Contains scripts for data transformation and augmentation.\
+data: Scripts and utilities for handling various datasets.\
+transform: Contains scripts for data transformation and augmentation.\
 
 
 
