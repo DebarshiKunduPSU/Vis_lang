@@ -49,7 +49,7 @@ train_nlvr.py: Script for training on Natural Language Visual Reasoning tasks.\
 utils.py: Utility functions for the project.\
 train_caption.py: Script for training on image captioning tasks.\
 eval_retrieval_video.py: Evaluation script for video retrieval.\
-eval_nocaps.py: Evaluation script for the nocaps dataset.\
+eval_nocaps.py: Evaluation script for the nocaps dataset.
 
 Subdirectories:\
 output: Contains logs and outputs from various training and evaluation processes.\
@@ -60,7 +60,7 @@ configs: Configuration files for different training and evaluation setups.\
   retrieval_flickr.yaml: All the hyperparameters can be defined here. The pre-trained BLIP model checkpoint is also mentioned here.\
 
 data: Scripts and utilities for handling various datasets.\
-transform: Contains scripts for data transformation and augmentation.\
+transform: Contains scripts for data transformation and augmentation.
 
 
 
