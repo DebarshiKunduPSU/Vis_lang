@@ -39,8 +39,8 @@ and set 'image_root' in configs/retrieval_flickr.yaml accordingly.
 --output_dir output/retrieval_flickr_finetuned </pre> 
 
 ### Description of key files:
-train_retrieval.py: Script for training image retrieval models.
-pretrain.py: Python script for pretraining models.
+train_retrieval.py: Script for training image retrieval models.\
+pretrain.py: Python script for pretraining models.\
 requirements.txt: Lists dependencies for the project.
 train_vqa.py: Script for training on Visual Question Answering tasks.
 demo.ipynb: Jupyter notebook demo of the project.
